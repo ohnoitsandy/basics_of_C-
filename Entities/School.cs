@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace CoreSchool.Entities
 {
-    class School
+    public class School
     {
         public string Name { get; set; }
         
