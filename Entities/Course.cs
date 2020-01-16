@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace CoreSchool.Entities
 {
@@ -7,6 +8,10 @@ namespace CoreSchool.Entities
         public string Id { get; private set; }
         public string Name { get; set; }
         public TurnTypes Turn { get; set; }
+        
+        public List<Subject> Subjects { get; set; }
+        
+        public List<Student> Students { get; set; }
 
         public Course() => this.Id = Guid.NewGuid().ToString();
 

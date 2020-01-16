@@ -1,9 +1,11 @@
+using System;
 using System.Collections.Generic;
 
 namespace CoreSchool.Entities
 {
     public class School
     {
+        public string Id { get; private set; } = Guid.NewGuid().ToString();
         public string Name { get; set; }
         
         public int FundationYear { get; set; }
@@ -16,7 +18,11 @@ namespace CoreSchool.Entities
 
         public List<Course> Courses { get; set; }
 
+        public School() => this.Id = Guid.NewGuid().ToString();
+        
         public School(string name, int fundationYear) => (this.Name, this.FundationYear) = (name, fundationYear);
+        
+        
 
         public School(string name, int fundationYear, SchoolTypes schoolTypes, string country = "", string city = "") =>
             (this.Name, this.FundationYear, this.SchoolTypes, this.Country, this.City) =
