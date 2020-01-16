@@ -1,0 +1,11 @@
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1.deps.json
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1.runtimeconfig.json
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1.runtimeconfig.dev.json
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1.dll
+/home/sandy/Documents/platzi/fase1/bin/Debug/netcoreapp3.1/fase1.pdb
+/home/sandy/Documents/platzi/fase1/obj/Debug/netcoreapp3.1/fase1.csprojAssemblyReference.cache
+/home/sandy/Documents/platzi/fase1/obj/Debug/netcoreapp3.1/fase1.AssemblyInfoInputs.cache
+/home/sandy/Documents/platzi/fase1/obj/Debug/netcoreapp3.1/fase1.AssemblyInfo.cs
+/home/sandy/Documents/platzi/fase1/obj/Debug/netcoreapp3.1/fase1.dll
+/home/sandy/Documents/platzi/fase1/obj/Debug/netcoreapp3.1/fase1.pdb
