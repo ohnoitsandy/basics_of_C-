@@ -14,9 +14,10 @@ namespace CoreSchool.Utilities
 
         public static void DrawTitle(string title)
         {
-            DrawLine(title.Length + 18);
+            var fixedSize = title.Length + 18;
+            DrawLine(fixedSize);
             WriteLine($"-------- {title.ToUpper()} ----------");
-            DrawLine(title.Length + 18);
+            DrawLine(fixedSize);
         }
         
     }
